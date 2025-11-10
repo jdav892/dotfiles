@@ -1,0 +1,13 @@
+# This is the configuration file for Ghostty.
+#
+# ==========================
+ font-family = Noto Sans Bold
+ font-size = 15
+
+ window-title-font-family = Noto Sans Bold
+
+ background = #000000
+ background-opacity = 0.8
+ background-blur-radius = 20
+ shell-integration-features = sudo
+
