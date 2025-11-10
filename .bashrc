@@ -125,6 +125,7 @@ export PATH=/home/jadavila9/.opencode/bin:$PATH
 # stuff
 alias vim="nvim"
 alias gl="git log"
+alias gp="git push -u origin main"
 alias gr="git reflog"
 alias gs="git status"
 alias gsolo="git add . && git commit"
