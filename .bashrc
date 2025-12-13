@@ -122,7 +122,7 @@ export NVM_DIR="$HOME/.config/nvm"
 # opencode
 export PATH=/home/jadavila9/.opencode/bin:$PATH
 
-# stuff
+# version control aliases
 alias vim="nvim"
 alias gl="git log"
 alias gp="git push -u origin main"
@@ -130,6 +130,6 @@ alias gr="git reflog"
 alias gs="git status"
 alias gsolo="git add . && git commit"
 alias jjc="jj commit"
-alias jjnew = "jj git init --colocate && jj bookmark track main@origin"
+alias jjnew="jj git init --colocate && jj bookmark track main@origin"
 alias jjo="jj op log"
 alias jjp="jj git push && jj bookmark set main -r @"
