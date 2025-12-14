@@ -130,6 +130,7 @@ alias gr="git reflog"
 alias gs="git status"
 alias gsolo="git add . && git commit"
 alias jjc="jj commit"
-alias jjnew="jj git init --colocate && jj bookmark track main@origin && jj bookmark set main -r @"
+#jjnr represents jj new repo since jj new is an actual command
+alias jjnr="jj git init --colocate && jj bookmark track main@origin && jj bookmark set main -r @"
 alias jjo="jj op log"
 alias jjp="jj git push && jj bookmark set main -r @"
