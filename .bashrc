@@ -122,8 +122,8 @@ export NVM_DIR="$HOME/.config/nvm"
 # opencode
 export PATH=/home/jadavila9/.opencode/bin:$PATH
 
-# version control aliases
 alias vim="nvim"
+# version control aliases
 alias gl="git log"
 alias gp="git push -u origin main"
 alias gr="git reflog"
